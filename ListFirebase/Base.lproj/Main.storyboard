@@ -48,6 +48,7 @@
                                 <state key="normal" title="Register"/>
                                 <connections>
                                     <action selector="buttonReg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uVD-Ya-gZq"/>
+                                    <action selector="buttonRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xQj-VW-SeT"/>
                                     <segue destination="VYx-2z-kAM" kind="show" id="yrR-ih-m32"/>
                                 </connections>
                             </button>
@@ -64,8 +65,8 @@
                     <navigationItem key="navigationItem" id="9yv-Uu-UWy"/>
                     <connections>
                         <outlet property="buttonRegister" destination="gbM-iV-c1W" id="ydW-1n-ZO3"/>
-                        <outlet property="textFieldPassword" destination="akb-VE-wjZ" id="8Xl-By-30o"/>
-                        <outlet property="textFieldUsername" destination="TKw-bL-3dx" id="bZk-st-yeT"/>
+                        <outlet property="textFieldPassword" destination="akb-VE-wjZ" id="qW0-tB-epS"/>
+                        <outlet property="textFieldUsername" destination="TKw-bL-3dx" id="Ogu-3Y-jlh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -269,7 +270,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="49"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="72Z-WO-tJJ" id="QSe-e8-570">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fewfwe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M95-DY-Ro3">
