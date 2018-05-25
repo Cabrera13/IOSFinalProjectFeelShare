@@ -28,6 +28,7 @@
 		81E27C9A20A5DDA700E898EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E27C9820A5DDA700E898EF /* LaunchScreen.storyboard */; };
 		81E27CA520A5DDA700E898EF /* ListFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E27CA420A5DDA700E898EF /* ListFirebaseTests.swift */; };
 		81E27CB020A5DDA700E898EF /* ListFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E27CAF20A5DDA700E898EF /* ListFirebaseUITests.swift */; };
+		81E99F7120B8784300AFE9B4 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E99F7020B8784300AFE9B4 /* RegisterScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		81E27CAB20A5DDA700E898EF /* ListFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E27CAF20A5DDA700E898EF /* ListFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFirebaseUITests.swift; sourceTree = "<group>"; };
 		81E27CB120A5DDA700E898EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E99F7020B8784300AFE9B4 /* RegisterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		9D281472BF9A53BA37A74F5F /* Pods_ListFirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListFirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A070CF2D7D32D13881939425 /* Pods-ListFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-ListFirebase/Pods-ListFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		B71C9E2B677B86F34AF5F603 /* Pods-ListFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ListFirebase/Pods-ListFirebase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				81BE3C4C20B7351C008F18FE /* ModalViewDetails.swift */,
 				81BE3C4E20B7358F008F18FE /* ControllerTableRanking.swift */,
 				81BE3C5020B735FD008F18FE /* CellViewTableRankingController.swift */,
+				81E99F7020B8784300AFE9B4 /* RegisterScreen.swift */,
 			);
 			path = ListFirebase;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				81BE3C4F20B7358F008F18FE /* ControllerTableRanking.swift in Sources */,
 				81BE3C4D20B7351C008F18FE /* ModalViewDetails.swift in Sources */,
 				81A0E8DC20B4864100B7D42D /* DSCameraHandler.swift in Sources */,
+				81E99F7120B8784300AFE9B4 /* RegisterScreen.swift in Sources */,
 				81E27C9520A5DDA700E898EF /* ListFirebase.xcdatamodeld in Sources */,
 				81A10DD720B7187F00D32EB3 /* ViewController.swift in Sources */,
 				81010B8520AC401300DE79C7 /* Home.swift in Sources */,
