@@ -193,7 +193,7 @@
             </objects>
             <point key="canvasLocation" x="2303.1999999999998" y="95.802098950524751"/>
         </scene>
-        <!--Item-->
+        <!--Ranking-->
         <scene sceneID="jNt-pI-s8E">
             <objects>
                 <tableViewController id="a8w-gy-p8n" customClass="ControllerTableRanking" customModule="ListFirebase" customModuleProvider="target" sceneMemberID="viewController">
@@ -241,13 +241,13 @@
                             <outlet property="delegate" destination="a8w-gy-p8n" id="DJS-A2-FJs"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="72Z-1z-tNq"/>
+                    <tabBarItem key="tabBarItem" title="Ranking" id="72Z-1z-tNq"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mza-36-yEt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3380" y="94.902548725637189"/>
         </scene>
-        <!--Item-->
+        <!--Settings-->
         <scene sceneID="IN6-Cz-qzF">
             <objects>
                 <viewController id="cis-8W-J48" customClass="Settings" customModule="ListFirebase" customModuleProvider="target" sceneMemberID="viewController">
@@ -260,7 +260,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="A93-2g-Udl"/>
+                    <tabBarItem key="tabBarItem" title="Settings" id="A93-2g-Udl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ehR-mE-xDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -320,14 +320,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eRu-fN-N9n">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="dwad@gmail.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eRu-fN-N9n">
                                 <rect key="frame" x="75" y="249" width="236" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dj2-Uq-3xH">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1234" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dj2-Uq-3xH">
                                 <rect key="frame" x="75" y="460" width="236" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
